@@ -9,7 +9,7 @@ namespace CacheFacade
         {
           
             var cacheService = new CacheServiceFacade(new Redis(), new ConfigurationManager());
-            cacheService.ImplementarCache();
+            cacheService.ImplementCache();
         }
     }
 }

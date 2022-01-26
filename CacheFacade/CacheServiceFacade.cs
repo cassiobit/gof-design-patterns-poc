@@ -15,21 +15,21 @@ namespace CacheFacade
             _configurationManager = configurationManager;
         }
 
-        public void ImplementarCache()
+        public void ImplementCache()
         {
-            string url = _configurationManager.ObterValor("url");
-            string secretKey = _configurationManager.ObterValor("secretKey");
+            string url = _configurationManager.GetValue("url");
+            string secretKey = _configurationManager.GetValue("secretKey");
 
-            bool sucessoConexao = _redis.ConectarComProvedor(secretKey);
+            bool connexionSuccessful = _redis.ConnectWithProvider(secretKey);
 
-            if (sucessoConexao)
+            if (connexionSuccessful)
             {
-                _redis.RealizarCacheNivel1();
-                _redis.RealizarCacheNivel2();
+                _redis.RunCacheLevel1();
+                _redis.RunCacheLevel2();
             }
             else
             {
-                Console.WriteLine("Secret Key inválida");
+                Console.WriteLine("Invalid Secret Key");
             }
         }
     }

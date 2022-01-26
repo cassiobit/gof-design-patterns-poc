@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CacheFacade", "CacheFacade\CacheFacade.csproj", "{9D8BDD26-DBB1-4231-95CA-F15EFBCB8F08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantasFactory", "PlantasFactory\PlantasFactory.csproj", "{5472555A-3331-445D-998B-001A2A2EB301}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowersFactory", "FlowersFactory\FlowersFactory.csproj", "{5472555A-3331-445D-998B-001A2A2EB301}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JogosAdapter", "JogosAdapter\JogosAdapter.csproj", "{A5DFB84C-7737-4984-BCDB-DD6815B45713}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamesAdapter", "GamesAdapter\GamesAdapter.csproj", "{A5DFB84C-7737-4984-BCDB-DD6815B45713}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2,6 +2,6 @@
 {
     internal interface IConfigurationManager
     {
-        string ObterValor(string chave);
+        string GetValue(string key);
     }
 }

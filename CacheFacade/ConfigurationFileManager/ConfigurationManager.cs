@@ -2,8 +2,8 @@
 {
     class ConfigurationManager : IConfigurationManager
     {
-       public string ObterValor(string chave){
-           return "valor";
+       public string GetValue(string key){
+           return "value";
        }
     }
 }
